@@ -1,0 +1,20 @@
+{
+  "name": "be-auth",
+  "version": "1.0.0",
+  "description": "A user authentication and authorization using Bearer tokens in a Node.js application with Express.js, Mongoose, and JWT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Santhosh Kumar R",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.0"
+  }
+}
